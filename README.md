@@ -189,7 +189,7 @@ program** on the MCU:
 1.  Clone the repo:
 
     ``` bash
-    git clone https://github.com/<user>/arm-baremetal-bringup.git
+    git clone https://github.com/luchocurti/arm-baremetal-bringup.git
     cd arm-baremetal-bringup
     ```
 
