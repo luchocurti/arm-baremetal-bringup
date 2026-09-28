@@ -6,6 +6,8 @@ It is designed as a minimal starting point for working with
 **ARM bare-metal programming** using `gcc` and without relying on vendor
 HAL libraries or CMSIS startup code.
 
+![board](assets/board.webp)
+
 ------------------------------------------------------------------------
 
 ## Features
@@ -34,12 +36,15 @@ HAL libraries or CMSIS startup code.
 ## Repository Structure
 
     .
-    ├── link.ld         # Linker script
-    ├── main.c          # Main program: LED blink + USART echo
-    ├── Makefile        # Build, flash, disasm, symbols, sections, clean
-    ├── README.md       # This file
-    ├── startup.c       # Vector table and Reset_Handler
-    └── stm32l476xx.h   # Minimal register definitions
+    ├── assets/board.webp   # NUCLEO-L476RG board image
+    ├── .gitignore          # Files and directories excluded from Git
+    ├── LICENSE             # Project license
+    ├── link.ld             # Linker script
+    ├── main.c              # Main program: LED blink + USART echo
+    ├── Makefile            # Build, flash, disasm, symbols, sections, clean
+    ├── README.md           # This file
+    ├── startup.c           # Vector table and Reset_Handler
+    └── stm32l476xx.h       # Minimal register definitions
 
 ------------------------------------------------------------------------
 
